@@ -8,12 +8,16 @@
 </head>
 <body>
 	<?php
+		// Inisialisasi variabel
 		$angka_pertama = 198;
 		$angka_kedua = 134;
         $angka_ketiga = 76;
-		$jumlah = $angka_pertama + $angka_kedua + $angka_ketiga;
 		$teks = 'Hasil Penjumlahan 198, 134, 76 adalah : ';
+
+		// Operasi
+		$jumlah = $angka_pertama + $angka_kedua + $angka_ketiga;
 		
+		//Menampilkan hasil
 		echo ($teks . $jumlah);
 	?>
 </body>

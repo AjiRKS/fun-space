@@ -8,12 +8,16 @@
 </head>
 <body>
 	<?php
+		// Inisialisasi Variabel
 		$angka_pertama = 15;
 		$angka_kedua = 45;
         $angka_ketiga = 100;
-		$jumlah = ($angka_pertama + $angka_kedua) - $angka_ketiga;
 		$teks = 'Hasil dari (15 + 45) - 100 adalah : ';
+
+		// Operasi
+		$jumlah = ($angka_pertama + $angka_kedua) - $angka_ketiga;
 		
+		//Menampilkan hasil
 		echo ($teks . $jumlah);
 	?>
 </body>

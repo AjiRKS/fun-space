@@ -8,12 +8,16 @@
 </head>
 <body>
 	<?php
+		// Inisialisasi Variabel
 		$angka_pertama = 200;
 		$angka_kedua = 15;
         $angka_ketiga = 10;
-		$jumlah = ($angka_pertama * $angka_kedua) / $angka_ketiga;
 		$teks = 'Hasil dari (200 X 15) / 10 adalah : ';
+
+		// Operasi
+		$jumlah = ($angka_pertama * $angka_kedua) / $angka_ketiga;
 		
+		//Menampilkan hasil
 		echo ($teks . $jumlah);
 	?>
 </body>

@@ -23,8 +23,8 @@
         // Menghitung laba bersih
         $laba_bersih = $laba_kotor - ($laba_kotor * $pajak);
 
-		
-		echo "Nama barang : " .$nama_barang . "<br>";
+		// Menampilkan hasil
+        echo "Nama barang : " .$nama_barang . "<br>";
         echo "Total pembelian : " .$total_pembelian . "<br>";
         echo "Total penjulan : " .$total_penjualan . "<br>";
         echo "Laba kotor : " .$laba_kotor . "<br>";
